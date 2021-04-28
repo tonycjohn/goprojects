@@ -1,0 +1,325 @@
+{
+    "DatasetID": "CSNLSSYNDPI_PROD_3",
+    "Location": "us",
+    "Tables": [
+        {
+            "TableID": "CSL_DSP_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_DSP_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSL_FEATURE_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_FEATURE_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSL_HRCH_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_HRCH_20201226/*.parquet",
+            "ClusterKeys": [
+                "CSL_KEY",
+                "CSL_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSL_LONGSLS_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_LONGSLS_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSL_MAP_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_MAP_20201226/*.parquet",
+            "ClusterKeys": [
+                "CSL_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSL_PRICE_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/CSL_PRICE_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "FCT_DIM",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/FCT_DIM/*.parquet",
+            "ClusterKeys": [
+                "FCT_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_ACV_INST_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_ACV_INST_20201226/*.parquet",
+            "ClusterKeys": [
+                "MRKT_KEY",
+                "PRD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_AGG_DISAGG_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_AGG_DISAGG_20201226/*.parquet",
+            "ClusterKeys": [
+                "MRKT_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_AGG_DISAGG_MFR_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_AGG_DISAGG_MFR_20201226/*.parquet",
+            "ClusterKeys": [
+                "MRKT_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_DIM",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_DIM/*.parquet",
+            "ClusterKeys": [
+                "MRKT_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_POD_ACV_INST_AGG_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_POD_ACV_INST_AGG_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_POD_ACV_INST_DISAGG_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_POD_ACV_INST_DISAGG_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_POD_ACV_INST_DISAGG_DEFUNCT_CS_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_POD_ACV_INST_DISAGG_DEFUNCT_CS_20201226/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_POD_AGG_RLTD_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_POD_AGG_RLTD_20201226/*.parquet",
+            "ClusterKeys": [
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "MRKT_POD_AGG_RLTD_MFR_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/MRKT_POD_AGG_RLTD_MFR_20201226/*.parquet",
+            "ClusterKeys": [
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "POD_ACV_INST_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/POD_ACV_INST_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "POD_ACV_INST_CLSTR_DEFUNCT_CS_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/POD_ACV_INST_CLSTR_DEFUNCT_CS_20201226/*.parquet",
+            "ClusterKeys": [
+                "closed_pod_id",
+                "active_pod_id"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "POD_ACV_INST_DEFUNCT_CS_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/POD_ACV_INST_DEFUNCT_CS_20201226/*.parquet",
+            "ClusterKeys": [
+                "closed_pod_id",
+                "active_pod_id"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "PRDC_DIM",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/PRDC_DIM/*.parquet",
+            "ClusterKeys": [
+                "PRDC_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "PRD_DIM",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/PRD_DIM/*.parquet",
+            "ClusterKeys": [
+                "PRD_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "SBTTLRLTD",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/SBTTLRLTD/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "TRND_SBST_AGG_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/TRND_SBST_AGG_20201226/*.parquet",
+            "ClusterKeys": [
+                "CSL_ID",
+                "PRD_ID",
+                "POD_ID",
+                "PRDC_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "TRND_SBST_DISAGG_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/TRND_SBST_DISAGG_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID",
+                "CSL_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "TRND_SBST_DISAGG_REACH_20201226",
+            "TableSource": "gs://bq-ingestion-bucket/CSNLSSYNDPI_PROD_3/TRND_SBST_DISAGG_REACH_20201226/*.parquet",
+            "ClusterKeys": [
+                "PRD_ID",
+                "POD_ID",
+                "CSL_ID"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSSYNDPRDC_DB_DT_SRC_PRTY_20201226_SYN",
+            "TableSource": "gs://bq-ingestion-bucket/CS_OD_MSTR_US_PROD/CSSYNDPRDC_DB_DT_SRC_PRTY_20201226_SYN/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSSYNPRD_PRD_DIM_CSNLSSYNDPI_PROD_20201226_RPT",
+            "TableSource": "gs://bq-ingestion-bucket/CS_OD_MSTR_US_PROD/CSSYNPRD_PRD_DIM_CSNLSSYNDPI_PROD_20201226_RPT/*.parquet",
+            "ClusterKeys": [
+                "PRD_KEY"
+            ],
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        },
+        {
+            "TableID": "CSSYNPRD_PRD_DIM_PREV_CSNLSSYNDPI_PROD_20201226_RPT",
+            "TableSource": "gs://bq-ingestion-bucket/CS_OD_MSTR_US_PROD/CSSYNPRD_PRD_DIM_PREV_CSNLSSYNDPI_PROD_20201226_RPT/*.parquet",
+            "ClusterKeys": null,
+            "PartitionKey": "",
+            "PartitionRangeStart": 0,
+            "PartitionRangeEnd": 0,
+            "PartitionInterval": 0
+        }
+    ],
+    "Views": null
+}

@@ -1,0 +1,6 @@
+{
+    "concurrency":1,
+    "inputCsvs":[
+        "C:\\citus\\csv\\dataset_5\\test.csv"
+    ]
+}
