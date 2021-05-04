@@ -41,7 +41,7 @@ func playground() {
 
 	//bit operation. works only with integers, not float
 	//also % operator works only  with integers
-	fmt.Printf("\nbit operation")
+	fmt.Printf("\nbit operation\n")
 	a := 10
 	b := 3
 	roleByte := 1
@@ -113,9 +113,10 @@ func playground() {
 	fmt.Printf("\nEmpty Array: %v", emptyArray)
 
 	gradeslice := []int{1, 3, 4}
-	fmt.Printf("\n Gradeslice %v", gradeslice)
+	fmt.Printf("\n Gradeslice %v, length %v, capacity %v", gradeslice, len(gradeslice), cap(gradeslice))
 	makeSlice := make([]int, 0, 10)
 	makeSlice = append(makeSlice, 1)
+	makeSlice = append(makeSlice, gradeslice...)
 	fmt.Printf("\n makeslice value %v, length %v, capacity %v\n", makeSlice, len(makeSlice), cap(makeSlice))
 
 	//Maps and Structs

@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 )
 
 // CitusConfig represents config
@@ -22,13 +23,17 @@ func main() {
 	//fmt.Println("projectID", *projectID)
 	//fmt.Println("snapshotMillis", *snapshotMillis)
 
+	fourSum([]int{1, 2, 5, 1, 0, 2}, 9)
+	fmt.Println(longestWord("go Tony go"))
+	fmt.Println(sortyByParity([]int{1, 3, 4, 9, 7, 6, 12}))
+
 	//publishtoGcp()
 	//sendMessageToQue()
 	//readFromQue()
 	//sendMessageToTopic()
 	//readFromTopic()
 
-	stringReplace(true, false)
+	//stringReplace(true, false)
 
 	/*startTime := time.Now()
 	writeCsv(130000, "12347", "C:\\citus\\csv\\dataset_5\\newbigger130k.csv")
